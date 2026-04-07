@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/card_background"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="32dp">
+
+    <!-- Checkmark circle -->
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_check_circle"
+        android:contentDescription="Success"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Done! text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done!"
+        android:textColor="@color/text_primary"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Success message -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You card has been successfully charged"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Go To First Page button -->
+    <Button
+        android:id="@+id/btnGoToFirst"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Go To First Page"
+        android:textColor="@color/text_primary"
+        android:backgroundTint="@color/white"
+        android:strokeColor="@color/light_gray"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:textSize="14sp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+</LinearLayout>
